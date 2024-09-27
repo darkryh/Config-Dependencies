@@ -1,0 +1,35 @@
+# Mock
+mockk = "1.13.12"
+mockk = { module = "io.mockk:mockk", version.ref = "mockk" }
+
+# Core Test
+coreKtxVersion = "1.6.1"
+core-ktx = { group = "androidx.test", name = "core-ktx", version.ref = "coreKtxVersion" }
+
+# Kotlin Coroutines
+kotlinxCoroutinesTest = "1.9.0"
+kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "kotlinxCoroutinesTest" }
+
+# Espresso
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+
+# WebView Test
+espressoWeb = "3.6.1"
+androidx-espresso-web = { group = "androidx.test.espresso", name = "espresso-web", version.ref = "espressoWeb" }
+
+# robolectric - for test with needed for android enviroment, like resource, context, etc
+robolectric = "4.13"
+robolectric = { module = "org.robolectric:robolectric", version.ref = "robolectric" }
+
+# Junit Tests
+junitVersion = "1.2.1"
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-junit-ktx = { group = "androidx.test.ext", name = "junit-ktx", version.ref = "junitVersion" }
+
+# Arch truth
+coreTesting = "2.2.0"
+androidx-core-testing = { module = "androidx.arch.core:core-testing", version.ref = "coreTesting" }
+
+# Koin
+koin = "3.5.6"
+koin-test = { module = "io.insert-koin:koin-test", version.ref = "koin" }
